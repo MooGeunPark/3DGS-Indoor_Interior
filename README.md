@@ -1,30 +1,34 @@
-# 프로젝트명
+# 구해줘 심즈
 
-📢 20##년 1/여름/2/겨울학기 [AIKU](https://github.com/AIKU-Official) 활동으로 진행한 프로젝트입니다
-🎉 20##년 1/여름/2/겨울학기 AIKU Conference 열심히상 수상!
+📢 2024년 겨울학기 [AIKU](https://github.com/AIKU-Official) 활동으로 진행한 프로젝트입니다
 
 ## 소개
 
-(프로젝트를 소개해주세요)
+우리 집 또는 특정 장소 등을 지금과 다른 스타일로 인테리어 하고 싶은데 실제로 가구를 사서 배치하거나 직접 움직이기 귀찮은 적 한번씩 있으시죠? 이를 위해 단순히 그 장소를 바라보며 찍은 몇 초 가량의 동영상과 요구사항만 입력하면 내 마음대로 인테리어할 수 있는 서비스를 제작해보려 합니다.
 
 ## 방법론
 
-(문제를 정의하고 이를 해결한 방법을 가독성 있게 설명해주세요)
+1. 장소를 다양한 각도로 바라본 동영상 촬영
+2. 요구사항(prompt) 입력
+   ex) 내가 준 식탁의 이미지로 바꿔줘. 식탁 위에 접시를 놔둬줘. 등
+3. GAN AI 사용하여 이미지를 바꿈.
+4. 3D Reconstruction 모델을 이용하여 렌더링 & 시각화
 
 ## 환경 설정
 
-(Requirements, Anaconda, Docker 등 프로젝트를 사용하는데에 필요한 요구 사항을 나열해주세요)
+-
 
 ## 사용 방법
 
-(프로젝트 실행 방법 (명령어 등)을 적어주세요.)
+Instant-ngp 사용
 
 ## 예시 결과
 
-(사용 방법을 실행했을 때 나타나는 결과나 시각화 이미지를 보여주세요)
+<img width="355" alt="image" src="https://github.com/user-attachments/assets/66b56e96-d1d0-4da4-8c0f-7ef8d5fa6e67" />
+
 
 ## 팀원
 
-(프로젝트에 참여한 팀원의 이름과 깃헙 프로필 링크, 역할을 작성해주세요)
-
-- [홍길동](홍길동의 github link): (수행한 역할을 나열)
+- [박무근](https://github.com/MooGeunPark): (3D reconstruction model, rendering)
+- [이민하](홍길동의 github link): (query mesh, point cloud, depth map)
+- [최현욱](홍길동의 github link): (3D reconstuction model, diffusion model)
