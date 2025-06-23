@@ -9,7 +9,7 @@ Have you ever wanted to redecorate your home or a specific space in a completely
 We propose a service that allows you to redesign and visualize your space exactly how you want, simply by providing a short video clip taken from different angles and some prompts describing your requirements.
 
 ## Methodology
-
+<p align="center"><img width="700" src="https://github.com/MooGeunPark/3DGS-Indoor_Interior/blob/main/images/Pipeline.png"></p>   
 1. Record a short video capturing the space from various angles.
 2. Input your prompt describing the desired changes.
    Example: “Replace the table with the one I provided. Put a plate on the table.”
