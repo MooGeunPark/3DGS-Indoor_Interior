@@ -1,34 +1,36 @@
-# 구해줘 심즈
+# Save me, Sims!
 
-📢 2024년 겨울학기 [AIKU](https://github.com/AIKU-Official) 활동으로 진행한 프로젝트입니다
+📢 This project was conducted as part of the 2024 Winter Semester Deep Learning Society in Korea University [AIKU](https://github.com/AIKU-Official) activities.
 
-## 소개
+## Introduction
 
-우리 집 또는 특정 장소 등을 지금과 다른 스타일로 인테리어 하고 싶은데 실제로 가구를 사서 배치하거나 직접 움직이기 귀찮은 적 한번씩 있으시죠? 이를 위해 단순히 그 장소를 바라보며 찍은 몇 초 가량의 동영상과 요구사항만 입력하면 내 마음대로 인테리어할 수 있는 서비스를 제작해보려 합니다.
+Have you ever wanted to redecorate your home or a specific space in a completely different style but found it too troublesome to move furniture or make purchases?
 
-## 방법론
+We propose a service that allows you to redesign and visualize your space exactly how you want, simply by providing a short video clip taken from different angles and some prompts describing your requirements.
 
-1. 장소를 다양한 각도로 바라본 동영상 촬영
-2. 요구사항(prompt) 입력
-   ex) 내가 준 식탁의 이미지로 바꿔줘. 식탁 위에 접시를 놔둬줘. 등
-3. GAN AI 사용하여 이미지를 바꿈.
-4. 3D Reconstruction 모델을 이용하여 렌더링 & 시각화
+## Methodology
 
-## 환경 설정
+1. Record a short video capturing the space from various angles.
+2. Input your prompt describing the desired changes.
+   Example: “Replace the table with the one I provided. Put a plate on the table.”
+3. se a GAN-based AI to modify the images according to the prompt.
+4. Use a 3D reconstruction model for rendering and visualization.
 
--
+## Example Output
 
-## 사용 방법
+<p align="center"><img width="700" src="https://github.com/user-attachments/assets/66b56e96-d1d0-4da4-8c0f-7ef8d5fa6e67"></p>   
 
-Instant-ngp 사용
+## Limitations & Future Works
+### Limitations
+* Due to GPU memory issues, we were unable to experiment with many models.
+* Since we were unable to fine-tune the model, there is a resolution gap compared to diffusion models, which limits performance.
 
-## 예시 결과
+### Future Works
+* We focus on running models that do not require extensive computing resources or adjust the resolution for testing.
+* Set the task in more detail and focus on just one specific objective.
 
-<img width="355" alt="image" src="https://github.com/user-attachments/assets/66b56e96-d1d0-4da4-8c0f-7ef8d5fa6e67" />
+## Team Members
 
-
-## 팀원
-
-- [박무근](https://github.com/MooGeunPark): (3D reconstruction model, rendering)
-- [이민하](홍길동의 github link): (query mesh, point cloud, depth map)
-- [최현욱](홍길동의 github link): (3D reconstuction model, diffusion model)
+- [Moogeun Park]: (3D reconstruction model, Rendering)
+- [Minha Lee]: (Query mesh, Point cloud, Depth map)
+- [Hyunwook Choi]: (3D reconstuction model, Diffusion model)
