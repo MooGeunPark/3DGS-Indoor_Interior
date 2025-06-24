@@ -10,15 +10,18 @@ We propose a service that allows you to redesign and visualize your space exactl
 
 ## Methodology
 <p align="center"><img width="700" src="https://github.com/MooGeunPark/3DGS-Indoor_Interior/blob/main/images/Pipeline.png"></p>   
+
 1. Record a short video capturing the space from various angles.
-2. Input your prompt describing the desired changes.
-   Example: “Replace the table with the one I provided. Put a plate on the table.”
+2. Input your prompt describing the desired changes. Example: “Replace the table with the one I provided. Put a plate on the table.”
 3. se a GAN-based AI to modify the images according to the prompt.
 4. Use a 3D reconstruction model for rendering and visualization.
 
 ## Example Output
+### Instant-NGP
+<p align="center"><img width="700" src="https://github.com/user-attachments/assets/66b56e96-d1d0-4da4-8c0f-7ef8d5fa6e67"></p>
 
-<p align="center"><img width="700" src="https://github.com/user-attachments/assets/66b56e96-d1d0-4da4-8c0f-7ef8d5fa6e67"></p>   
+### CustomNet
+<p align="center"><img width="700" src="https://github.com/MooGeunPark/3DGS-Indoor_Interior/blob/main/images/CustomNet.png"></p>
 
 ## Limitations & Future Works
 ### Limitations
